@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Materials\UberMaterial.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="Materials\SpikeyMaterial.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Materials\Shadow\SkinnedDiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Materials\SkyBoxMaterial.cpp" />
+    <ClCompile Include="Level Loader\LevelLoader.cpp" />
+    <ClCompile Include="Game\Character.cpp" />
+    <ClCompile Include="Game\FollowCamera.cpp" />
+    <ClCompile Include="Game\RaymanGame.cpp" />
+    <ClCompile Include="menus\ExitMenu.cpp" />
+    <ClCompile Include="menus\MainMenu.cpp" />
+    <ClCompile Include="Game\Lum.cpp" />
+    <ClCompile Include="Game\ClimbArea.cpp" />
+    <ClCompile Include="Game\EndPortal.cpp" />
+    <ClCompile Include="menus\EndingMenu.cpp" />
+    <ClCompile Include="Materials\PP\PostBloom.cpp" />
+    <ClCompile Include="Materials\PP\PostBlur.cpp" />
+    <ClCompile Include="Materials\PP\PostGrayscale.cpp" />
+    <ClCompile Include="Materials\PP\PostGrain.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow_Panning.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Materials\UberMaterial.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="Materials\SpikeyMaterial.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Materials\Shadow\SkinnedDiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Materials\SkyBoxMaterial.h" />
+    <ClInclude Include="Level Loader\LevelLoader.h" />
+    <ClInclude Include="Game\Character.h" />
+    <ClInclude Include="Game\FollowCamera.h" />
+    <ClInclude Include="Game\RaymanGame.h" />
+    <ClInclude Include="menus\ExitMenu.h" />
+    <ClInclude Include="menus\MainMenu.h" />
+    <ClInclude Include="Game\Lum.h" />
+    <ClInclude Include="Game\ClimbArea.h" />
+    <ClInclude Include="Game\EndPortal.h" />
+    <ClInclude Include="menus\EndingMenu.h" />
+    <ClInclude Include="Materials\PP\PostGrayscale.h" />
+    <ClInclude Include="Materials\PP\PostBloom.h" />
+    <ClInclude Include="Materials\PP\PostBlur.h" />
+    <ClInclude Include="Materials\PP\PostGrain.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow_Panning.h" />
+  </ItemGroup>
+</Project>
